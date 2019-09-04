@@ -1,9 +1,13 @@
-const express = 'express';
+const express = require('express')
+
+
+// const db = require('../data/dbConfig');
+
 
 const router = express.Router();
 
 router.post('/', (req, res) => {
-
+    console.log("hello world");
 });
 
 router.post('/:id/posts', (req, res) => {
